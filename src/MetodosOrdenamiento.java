@@ -155,7 +155,8 @@ public class MetodosOrdenamiento {
     }
 
     // Método de inserción con errores
-    // Error encontrado:
+    // Error encontrado: La J estaba mal puesta
+    //Solucion: Intercambiar a las J del segundo for por la I, igual en el intercambio.
     public int[] insercionSegundo(int[] arregloOriginal) {
 
         int[] arreglo = Arrays.copyOf(arregloOriginal, arregloOriginal.length);
